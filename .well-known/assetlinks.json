@@ -1,12 +1,27 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.formuladream.formuladream",
-      "sha256_cert_fingerprints":
-        ["CB:2C:CD:CB:C4:5F:41:79:CA:19:0E:13:08:6B:B1:85:0D:0E:F4:C8:A3:63:59:06:C9:46:F9:2D:47:4C:A6:94",
+      "sha256_cert_fingerprints": [
+        "CB:2C:CD:CB:C4:5F:41:79:CA:19:0E:13:08:6B:B1:85:0D:0E:F4:C8:A3:63:59:06:C9:46:F9:2D:47:4C:A6:94",
         "3C:18:D2:33:DA:69:CF:96:36:7F:DC:99:97:F1:7A:B1:4B:6A:36:BD:C2:F5:27:B5:07:69:32:C8:A9:0A:50:87"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.formulaneon.fantasyone",
+      "sha256_cert_fingerprints": [
+        "3E:4A:74:14:11:C9:74:61:0D:EA:23:0A:6C:A6:45:0F:1B:72:75:7A:18:A1:8D:78:6D:6C:75:BE:4D:1C:44:78"
       ]
     }
   }
